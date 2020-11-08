@@ -1,0 +1,36 @@
+﻿<Window x:Class="PLWPF.SearchTestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="חיפוש מבחן" Height="500" Width="500">
+    <Window.Resources>
+        <XmlDataProvider x:Key="Test" Source="customers.xml" XPath="Data" />
+    </Window.Resources>
+    <Grid>
+        <DataGrid x:Name="findGrid" AutoGenerateColumns="False" IsReadOnly="True" HorizontalAlignment="Left" Height="102" VerticalAlignment="Top" Width="364" Margin="69,164,0,0" FlowDirection="RightToLeft">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="תעודת זהות בוחן" Binding="{Binding Id_tester}" FontFamily="Arial" Width="auto"/>
+                <DataGridTextColumn Header="תעודת זהות תלמיד" Binding="{Binding Id_trainee}" FontFamily="Arial" Width="auto" />
+                <DataGridTextColumn Header="תאריך"  Binding="{Binding TestDate}" FontFamily="Arial" Width="auto"/>
+                <DataGridTextColumn Header="שעה" Binding="{Binding TestHour}" FontFamily="Arial" Width="auto"/>
+                <DataGridTextColumn Header="כתובת יציאה" Binding="{Binding AddressExit}" FontFamily="Arial" Width="auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid x:Name="grdActions" HorizontalAlignment="Left" Height="61" VerticalAlignment="Top" Width="234" Margin="35,318,0,0" Grid.ColumnSpan="2" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="44*"/>
+                <RowDefinition Height="17*"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="btnDelete" Content="מחיקה" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="32,10,0,0" Height="41" Grid.RowSpan="2" Click="btnDelete_Click"/>
+            <Button x:Name="btnUpdate" Content="עידכון" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="126,10,0,0" Height="41" Grid.RowSpan="2" Click="btnUpdate_Click"/>
+        </Grid>
+        <TextBox x:Name="txtSearchCode" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="140" Margin="230,38,0,0" />
+        <Label x:Name="lblSearchCode" Content=" קוד " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="187,38,0,0" Height="30" Width="45"/>
+        <Button x:Name="btnSearch" Content="חיפוש" HorizontalAlignment="Left" VerticalAlignment="Top" Width="86" Margin="123,87,0,0" Height="30" Click="button_Click"/>
+        <Button x:Name="btnBack" Content="חזור" HorizontalAlignment="Left" Height="42" Margin="10,418,0,0" VerticalAlignment="Top" Width="104" Click="btnBack_Click" FontSize="24" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

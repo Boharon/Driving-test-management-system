@@ -1,0 +1,18 @@
+﻿<Window x:Class="PLWPF.TesterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="בוחן" Height="460.74" Width="342.819" >
+    <Grid Margin="0,0,22,0">
+        <Button x:Name="ButtonAdd" Content="בוחן חדש" HorizontalAlignment="Left" Height="82" Margin="23,10,0,0" VerticalAlignment="Top" Width="220" Click="ButtonAdd_Click" FontWeight="Black"/>
+        <Button x:Name="ButtonTest" Content="מבחנים" HorizontalAlignment="Left" Height="82" Margin="23,103,0,0" VerticalAlignment="Top" Width="220" Click="ButtonTest_Click"  FontWeight="Black"/>
+        <Button x:Name="ButtonUpdate" Content="חיפוש " HorizontalAlignment="Left" Height="82" Margin="23,197,0,0" VerticalAlignment="Top" Width="220" Click="ButtonUpdate_Click"  FontWeight="Black"/>
+        <Button x:Name="btnHome" Content="תפריט ראשי" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Height="28" Margin="224,392,0,0" FontWeight="Bold" Click="btnHome_Click"/>
+        <Button x:Name="btnBack" Content="חזור" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Height="28" Margin="23,392,0,0" FontWeight="Bold" Click="btnBack_Click"/>
+        <Button x:Name="ButtonBestTeacher" Content="הבוחן שאצלו עברו הכי הרבה תלמידים" HorizontalAlignment="Left" Height="82" Margin="23,297,0,0" VerticalAlignment="Top" Width="220" Click="ButtonBestTester_Click"  FontWeight="Black" Visibility="Hidden"/>
+
+    </Grid>
+</Window>

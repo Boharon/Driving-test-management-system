@@ -1,0 +1,98 @@
+﻿<Window x:Class="PLWPF.AddTesterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="הוספת בוחן" Height="800" Width="800">
+    <Window.Resources>
+        <Style x:Key="MyTextStyle" TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="FontFamily" Value="Ariel"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style x:Key="MyTextErrorStyle" TargetType="Label">
+            <Setter Property="FontFamily" Value="Ariel"/>
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="BorderBrush"  Value="Red"/>
+            <Setter Property="BorderThickness"  Value="2"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="label_ID" Content="ת.ז"  Style="{StaticResource MyTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="32" Width="42"  FlowDirection="RightToLeft" Grid.Column="2"  Grid.Row="1" />
+        <Label x:Name="label_FirstName" Content="שם פרטי" Style="{StaticResource MyTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="32" Width="81" FlowDirection="RightToLeft"  Grid.Column="2" Grid.Row="2"/>
+        <Label x:Name="label_LastName" Content="שם משפחה" Style="{StaticResource MyTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" Height="32" Width="104" FlowDirection="RightToLeft" Grid.Row="3" Grid.Column="2" />
+        <Label x:Name="label_birthDate" Content="תאריך לידה" Style="{StaticResource MyTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="27" Width="93" FlowDirection="RightToLeft" Grid.Row="4" Grid.Column="2" />
+        <Label x:Name="label_gender" Content="מין" Style="{StaticResource MyTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" Height="47" Width="52" FlowDirection="RightToLeft" Grid.Row="5" Grid.Column="2"/>
+        <Label x:Name="label_PhoneNumber" Content="מספר פלאפון" Style="{StaticResource MyTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="33" Width="117" FlowDirection="RightToLeft" Grid.Row="6" Grid.Column="2"/>
+        <Label x:Name="label_Trainee_street" Content="רחוב" Style="{StaticResource MyTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="32" Width="76" FlowDirection="RightToLeft" Grid.Row="7" Grid.Column="2" Margin="173.2,15.6,15.6,3.6" />
+        <Label x:Name="label_Trainee_number" Content="מספר בית" Style="{StaticResource MyTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="27" Width="104" FlowDirection="RightToLeft" Grid.Row="7" Grid.Column="1" Margin="211.2,13.6,213.6,10.6" Grid.ColumnSpan="2" />
+        <Label x:Name="label_Trainee_city" Content="עיר" Style="{StaticResource MyTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="29" Width="48"  FlowDirection="RightToLeft" Grid.Row="7" Margin="106.2,12.6,109.8,9.6" Grid.Column="1" />
+
+        <TextBox x:Name="textBox_ID" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"  Grid.Column="1" Grid.Row="1"/>
+        <TextBox x:Name="textBox_FirstName" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"  Grid.Row="2" Grid.Column="1" />
+        <TextBox x:Name="textBox_LastName" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"  Grid.Row="3" Grid.Column="1"/>
+        <TextBox x:Name="textBox_PhoneNumber" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"  Grid.Row="6" Grid.Column="1"/>
+        <TextBox x:Name="textBoxaddress_Tester_street" HorizontalAlignment="Center" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="128"  Grid.Row="7"  Grid.Column="2" Margin="56.2,15.6,80.6,9.6"/>
+        <TextBox x:Name="textBoxaddress_Tester_number" HorizontalAlignment="Center" Height="27" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="46" Grid.Row="7" Grid.Column="1" Margin="165.2,14.6,52.8,9.6"/>
+        <TextBox x:Name="textBoxaddress_Tester_city" HorizontalAlignment="Center" Height="27" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Grid.Row="7" Width="124" Grid.ColumnSpan="2" Margin="242,14.6,162.8,9.6"/>
+        <Button x:Name="SAVE" Content="שמור בוחן" HorizontalAlignment="Center" Height="41" VerticalAlignment="Center" Width="256" Click="button_Click" FontSize="20" FontWeight="Bold" IsEnabled="False" Grid.Row="13" Grid.Column="1" />
+
+        <DatePicker x:Name="DatePicker_birthDate" HorizontalAlignment="Center" VerticalAlignment="Center" Height="41"  Width="114" Grid.Row="4" Grid.Column="1" />
+        <RadioButton x:Name="radioButton_gender_male" GroupName="gender" Content="זכר" VerticalAlignment="Top"  FontSize="16" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" ForceCursor="False" Height="21" Width="42" Grid.Row="5" Margin="196.8,13,0,0" Grid.Column="1" />
+        <RadioButton x:Name="radioButton_gender_female" GroupName="gender" Content="נקבה" Margin="96.8,14,0,0" VerticalAlignment="Top"  FontSize="16" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="-2.296,0.598" HorizontalAlignment="Left" ForceCursor="False" Height="21" Width="56" Grid.Row="5" Grid.Column="1"  />
+        <Label x:Name="label_Experience" Content="שנות ניסיון" Style="{StaticResource MyTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="28" Width="89" FlowDirection="RightToLeft" Grid.Row="8" Grid.Column="2"/>
+        <TextBox x:Name="textBox_Experience" HorizontalAlignment="Center" Height="43" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="72"  RenderTransformOrigin="0.554,2.836" Grid.Row="8" Grid.Column="1"/>
+        <Label x:Name="label_MaxLessons" Content="מספר שיעורים שבועי מקסימלי" Style="{StaticResource MyTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="37" Width="234" FlowDirection="RightToLeft" Grid.Row="9" Grid.Column="2"/>
+        <TextBox x:Name="textBox_MaxLessons" HorizontalAlignment="Center" Height="43" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="82" RenderTransformOrigin="0.554,2.836" Grid.Row="9" Grid.Column="1"/>
+        <Label x:Name="label_Kind" Content="סוג כלי רכב" Style="{StaticResource MyTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" Height="32" Width="116" FlowDirection="RightToLeft" Grid.Row="11" Grid.Column="2"/>
+        <ComboBox x:Name="comboBoxKind" HorizontalAlignment="Center" VerticalAlignment="Center" Width="123" Height="22" Grid.Row="11" Grid.Column="1">
+            <ComboBoxItem Content="A"/>
+            <ComboBoxItem Content="B"/>
+            <ComboBoxItem Content="C"/>
+            <ComboBoxItem Content="C1"/>
+        </ComboBox>
+        <Label x:Name="label_MaxDistance" Content="מרחק מקסימלי " Style="{StaticResource MyTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="56.4,12,73.4,0" Height="43" Width="135" FlowDirection="RightToLeft" Grid.Row="10" Grid.Column="2" Grid.RowSpan="2"/>
+        <TextBox x:Name="textBox_MaxDistance" HorizontalAlignment="Left" Height="43" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="99.8,5,0,0" RenderTransformOrigin="0.554,2.836" Grid.Row="10" Grid.Column="1"/>
+        <Button x:Name="SCHEDULE" Content="הוספת לוח שעות" HorizontalAlignment="Center" Height="41" VerticalAlignment="Center" Width="256" Click="button_Click1" FontSize="20" FontWeight="Bold" Grid.Row="12" Grid.Column="1"  />
+
+        <Label x:Name="lblUpdateMesssage" Content="" BorderBrush="Gold" BorderThickness="2" Grid.Row="12" Visibility="Hidden" Grid.Column="2" Margin="0.2,51.8,-0.4,51.4" Grid.RowSpan="3" />
+        <Label x:Name="lbErrID" Content="" Style="{StaticResource MyTextErrorStyle}" Grid.Row="1" Height="30" Visibility="Hidden"/>
+        <Label x:Name="lbErrFname" Content="" Style="{StaticResource MyTextErrorStyle}"  Grid.Row="2" Height="30" Visibility="Hidden"/>
+        <Label x:Name="lbErrLname" Content="" Style="{StaticResource MyTextErrorStyle}"   Grid.Row="3" Height="30" Visibility="Hidden"/>
+        <Label x:Name="lbErrBirthDate" Content=""  Style="{StaticResource MyTextErrorStyle}" Grid.Row="4" Height="30" Visibility="Hidden"/>
+        <Label x:Name="lbErrGender" Content="" Style="{StaticResource MyTextErrorStyle}"    Grid.Row="5" Height="30" Grid.ColumnSpan="2" Margin="0,11,263.8,10.2" Visibility="Hidden"/>
+        <Label x:Name="lbErrPhone" Content=""  Style="{StaticResource MyTextErrorStyle}"   Grid.Row="6" Height="30" Visibility="Hidden"/>
+        <Label x:Name="lbErrAddress" Content=""  Style="{StaticResource MyTextErrorStyle}"   Grid.Row="7" Height="30" Margin="0,14.6,56.8,6.6" Visibility="Hidden"/>
+        <Label x:Name="lbErrExperience" Content="" Style="{StaticResource MyTextErrorStyle}"    Grid.Row="8" Height="30" Visibility="Hidden"/>
+        <Label x:Name="lbErrMaxLessons" Content="" Style="{StaticResource MyTextErrorStyle}"  Grid.Row="9" Height="30" Visibility="Hidden"/>
+        <Label x:Name="lbErrMaxDistance" Content=""  Style="{StaticResource MyTextErrorStyle}"   Grid.Row="10" Height="30" Visibility="Hidden"/>
+        <Label x:Name="lbErrKind" Content=""  Style="{StaticResource MyTextErrorStyle}"   Grid.Row="11" Height="30" Grid.Column="0" Visibility="Hidden"/>
+        <Button x:Name="btnBack" Content="חזור" HorizontalAlignment="Center" Height="40" VerticalAlignment="Center" Width="207" Click="btnBack_Click1" FontSize="20" FontWeight="Bold" Grid.Row="13"  Margin="27,6,30,6"  />
+    </Grid>
+</Window>

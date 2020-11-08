@@ -1,0 +1,51 @@
+﻿<Window x:Class="PLWPF.SearchTester"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="חיפוש בוחן" Height="575.2" Width="913.6">
+    <Window.Resources>
+        <XmlDataProvider x:Key="Tester" Source="customers.xml" XPath="Data" />
+    </Window.Resources>
+    <Grid Margin="0,0,12.8,2.8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="69*"/>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="305*"/>
+        </Grid.ColumnDefinitions>
+
+        <DataGrid x:Name="findGrid" AutoGenerateColumns="False" IsReadOnly="True" HorizontalAlignment="Left" Height="276" VerticalAlignment="Top" Width="387" Margin="269.4,188,0,0" FlowDirection="RightToLeft" Grid.Column="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="תעודת זהות" Binding="{Binding Id}" FontFamily="Arial" Width="auto"/>
+                <DataGridTextColumn Header="שם פרטי" Binding="{Binding FirstName}" FontFamily="Arial" Width="auto" />
+                <DataGridTextColumn Header="שם משפחה"  Binding="{Binding LastName}" FontFamily="Arial" Width="auto"/>
+                <DataGridTextColumn Header="תאריך לידה" Binding="{Binding BirthDate}" FontFamily="Arial" Width="auto"/>
+                <DataGridTextColumn Header="מין" Binding="{Binding Gender}" FontFamily="Arial" Width="auto"/>
+                <DataGridTextColumn Header="מספר פלאפון" Binding="{Binding PhoneNumber}" FontFamily="Arial" Width="auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid x:Name="grdActions" HorizontalAlignment="Left" Height="61" VerticalAlignment="Top" Width="219" Margin="35,318,0,0" Grid.ColumnSpan="3" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="44*"/>
+                <RowDefinition Height="17*"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="btnDelete" Content="מחיקה" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="32,10,0,0" Height="41" Grid.RowSpan="2" Click="btnDelete_Click" Visibility="Hidden" IsEnabled="False"/>
+            <Button x:Name="btnUpdate" Content="עידכון" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="126,10,0,0" Height="41" Grid.RowSpan="2" Click="btnUpdate_Click" IsEnabled="False"/>
+        </Grid>
+        <Label x:Name="lblSearch" Content=" תעודת זהות" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="629.4,50,-2.6,0" Height="30" Width="78" Grid.Column="2"/>
+        <Button x:Name="btnSearch" Content="חיפוש" HorizontalAlignment="Left" VerticalAlignment="Top" Width="86" Margin="34.2,50,0,0" Height="30" Click="button_Click"/>
+        <TextBox x:Name="txtSearchID" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="140" Margin="488.4,50,0,0" Grid.Column="2"/>
+        <GroupBox x:Name="grpSearch" Header="חפש לפי" HorizontalAlignment="Left" Height="88" Margin="11,10,-18.6,0" VerticalAlignment="Top" Width="902" Grid.ColumnSpan="3"/>
+        <Label x:Name="lblSearchF" Content="שם פרטי" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="376.4,50,0,0" Height="30" Width="78" Grid.Column="2"/>
+        <TextBox x:Name="txtSearchL" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="140" Margin="152,50,0,0" Grid.ColumnSpan="3"/>
+        <Label x:Name="lblSearchL" Content=" שם משפחה" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="107.4,50,0,0" Height="30" Width="78" Grid.Column="2"/>
+        <TextBox x:Name="txtSearchF" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="140" Margin="205.4,50,0,0" Grid.Column="2"/>
+        <Button x:Name="btnBack" HorizontalAlignment="Left" Height="42" Margin="16,491,0,0" VerticalAlignment="Top" Width="104" Click="btnBack_Click" FontSize="24" FontWeight="Bold">
+            <Button x:Name="btnBack_Copy" Content="חזור" HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="104" Click="btnBack_Click" FontSize="24" FontWeight="Bold"/>
+        </Button>
+        <Button x:Name="Button3MonthsTests" Content="הצג מבחנים של הבוחן מ 3 החודשים האחרונים" HorizontalAlignment="Left" Height="42" Margin="34,394,0,0" VerticalAlignment="Top" Width="282" Visibility="Visible" Grid.ColumnSpan="3" Click="Button3months_Click"/>
+
+    </Grid>
+</Window>

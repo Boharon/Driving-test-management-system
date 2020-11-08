@@ -1,0 +1,591 @@
+<?xml version="1.0"?>
+<ArrayOfTester xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tester>
+    <Id>208107029</Id>
+    <FirstName>דורון</FirstName>
+    <LastName>הרצוג</LastName>
+    <BirthDate>1970-10-15T00:00:00</BirthDate>
+    <Gender>male</Gender>
+    <PhoneNumber>0556679414</PhoneNumber>
+    <AddressTester>
+      <street>העצמאות</street>
+      <number>20</number>
+      <city>פתח תקווה</city>
+    </AddressTester>
+    <ExperienceYears>20</ExperienceYears>
+    <MaxWeeklyTests>22</MaxWeeklyTests>
+    <VehicleKind>B</VehicleKind>
+    <MaxDistance>15</MaxDistance>
+    <TempScheduleTester>5,7,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,True,False,True,False,False,False,True,False,True,False,False,False</TempScheduleTester>
+    <TempTestsOfTester>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Test&gt;
+    &lt;DrivingCheck&gt;
+      &lt;keepDistance&gt;false&lt;/keepDistance&gt;
+      &lt;reverseParking&gt;false&lt;/reverseParking&gt;
+      &lt;mirrorsWatcing&gt;false&lt;/mirrorsWatcing&gt;
+      &lt;signs&gt;false&lt;/signs&gt;
+      &lt;isAllowedSpeed&gt;false&lt;/isAllowedSpeed&gt;
+    &lt;/DrivingCheck&gt;
+    &lt;IsPass&gt;false&lt;/IsPass&gt;
+    &lt;Code&gt;2&lt;/Code&gt;
+    &lt;Id_tester&gt;208107029&lt;/Id_tester&gt;
+    &lt;Id_trainee&gt;124563987&lt;/Id_trainee&gt;
+    &lt;TestDate&gt;2019-10-06T00:00:00&lt;/TestDate&gt;
+    &lt;TestHour&gt;2000-12-12T12:00:00&lt;/TestHour&gt;
+    &lt;AddressExit&gt;
+      &lt;street&gt;הענבל&lt;/street&gt;
+      &lt;number&gt;20&lt;/number&gt;
+      &lt;city&gt;פתח תקוה&lt;/city&gt;
+    &lt;/AddressExit&gt;
+    &lt;VehicleKind&gt;B&lt;/VehicleKind&gt;
+    &lt;GearboxKind&gt;manual&lt;/GearboxKind&gt;
+    &lt;TesterNote /&gt;
+  &lt;/Test&gt;
+  &lt;Test&gt;
+    &lt;DrivingCheck&gt;
+      &lt;keepDistance&gt;false&lt;/keepDistance&gt;
+      &lt;reverseParking&gt;false&lt;/reverseParking&gt;
+      &lt;mirrorsWatcing&gt;false&lt;/mirrorsWatcing&gt;
+      &lt;signs&gt;false&lt;/signs&gt;
+      &lt;isAllowedSpeed&gt;false&lt;/isAllowedSpeed&gt;
+    &lt;/DrivingCheck&gt;
+    &lt;IsPass&gt;false&lt;/IsPass&gt;
+    &lt;Code&gt;5&lt;/Code&gt;
+    &lt;Id_tester&gt;208107029&lt;/Id_tester&gt;
+    &lt;Id_trainee&gt;203698675&lt;/Id_trainee&gt;
+    &lt;TestDate&gt;2020-03-04T00:00:00&lt;/TestDate&gt;
+    &lt;TestHour&gt;2000-12-12T13:00:00&lt;/TestHour&gt;
+    &lt;AddressExit&gt;
+      &lt;street&gt;דגניה&lt;/street&gt;
+      &lt;number&gt;23&lt;/number&gt;
+      &lt;city&gt;תל אביב&lt;/city&gt;
+    &lt;/AddressExit&gt;
+    &lt;VehicleKind&gt;B&lt;/VehicleKind&gt;
+    &lt;GearboxKind&gt;manual&lt;/GearboxKind&gt;
+    &lt;TesterNote /&gt;
+  &lt;/Test&gt;
+  &lt;Test&gt;
+    &lt;DrivingCheck&gt;
+      &lt;keepDistance&gt;false&lt;/keepDistance&gt;
+      &lt;reverseParking&gt;false&lt;/reverseParking&gt;
+      &lt;mirrorsWatcing&gt;false&lt;/mirrorsWatcing&gt;
+      &lt;signs&gt;false&lt;/signs&gt;
+      &lt;isAllowedSpeed&gt;false&lt;/isAllowedSpeed&gt;
+    &lt;/DrivingCheck&gt;
+    &lt;IsPass&gt;false&lt;/IsPass&gt;
+    &lt;Code&gt;6&lt;/Code&gt;
+    &lt;Id_tester&gt;208107029&lt;/Id_tester&gt;
+    &lt;Id_trainee&gt;206987456&lt;/Id_trainee&gt;
+    &lt;TestDate&gt;2019-04-25T00:00:00&lt;/TestDate&gt;
+    &lt;TestHour&gt;2000-12-12T12:00:00&lt;/TestHour&gt;
+    &lt;AddressExit&gt;
+      &lt;street&gt;בארי&lt;/street&gt;
+      &lt;number&gt;5&lt;/number&gt;
+      &lt;city&gt;הרצליה&lt;/city&gt;
+    &lt;/AddressExit&gt;
+    &lt;VehicleKind&gt;B&lt;/VehicleKind&gt;
+    &lt;GearboxKind&gt;manual&lt;/GearboxKind&gt;
+    &lt;TesterNote /&gt;
+  &lt;/Test&gt;
+&lt;/ArrayOfTest&gt;</TempTestsOfTester>
+  </Tester>
+  <Tester>
+    <Id>203366987</Id>
+    <FirstName>תמי</FirstName>
+    <LastName>בוזגלו</LastName>
+    <BirthDate>1946-05-22T00:00:00</BirthDate>
+    <Gender>female</Gender>
+    <PhoneNumber>0503333871</PhoneNumber>
+    <AddressTester>
+      <street>כץ</street>
+      <number>7</number>
+      <city>פתח תקווה</city>
+    </AddressTester>
+    <ExperienceYears>5</ExperienceYears>
+    <MaxWeeklyTests>18</MaxWeeklyTests>
+    <VehicleKind>A</VehicleKind>
+    <MaxDistance>45</MaxDistance>
+    <TempScheduleTester>5,7,True,True,True,True,False,False,False,True,True,True,True,False,False,False,True,True,True,True,False,False,False,True,True,True,True,False,False,False,False,False,False,False,False,False,False</TempScheduleTester>
+    <TempTestsOfTester>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Test&gt;
+    &lt;DrivingCheck&gt;
+      &lt;keepDistance&gt;false&lt;/keepDistance&gt;
+      &lt;reverseParking&gt;false&lt;/reverseParking&gt;
+      &lt;mirrorsWatcing&gt;false&lt;/mirrorsWatcing&gt;
+      &lt;signs&gt;false&lt;/signs&gt;
+      &lt;isAllowedSpeed&gt;false&lt;/isAllowedSpeed&gt;
+    &lt;/DrivingCheck&gt;
+    &lt;IsPass&gt;false&lt;/IsPass&gt;
+    &lt;Code&gt;9&lt;/Code&gt;
+    &lt;Id_tester&gt;203366987&lt;/Id_tester&gt;
+    &lt;Id_trainee&gt;203692587&lt;/Id_trainee&gt;
+    &lt;TestDate&gt;2020-05-24T00:00:00&lt;/TestDate&gt;
+    &lt;TestHour&gt;2000-12-12T11:00:00&lt;/TestHour&gt;
+    &lt;AddressExit&gt;
+      &lt;street&gt;סיני&lt;/street&gt;
+      &lt;number&gt;1&lt;/number&gt;
+      &lt;city&gt;רחובות&lt;/city&gt;
+    &lt;/AddressExit&gt;
+    &lt;VehicleKind&gt;A&lt;/VehicleKind&gt;
+    &lt;GearboxKind&gt;automatic&lt;/GearboxKind&gt;
+    &lt;TesterNote /&gt;
+  &lt;/Test&gt;
+  &lt;Test&gt;
+    &lt;DrivingCheck&gt;
+      &lt;keepDistance&gt;false&lt;/keepDistance&gt;
+      &lt;reverseParking&gt;false&lt;/reverseParking&gt;
+      &lt;mirrorsWatcing&gt;false&lt;/mirrorsWatcing&gt;
+      &lt;signs&gt;false&lt;/signs&gt;
+      &lt;isAllowedSpeed&gt;false&lt;/isAllowedSpeed&gt;
+    &lt;/DrivingCheck&gt;
+    &lt;IsPass&gt;false&lt;/IsPass&gt;
+    &lt;Code&gt;10&lt;/Code&gt;
+    &lt;Id_tester&gt;203366987&lt;/Id_tester&gt;
+    &lt;Id_trainee&gt;203692587&lt;/Id_trainee&gt;
+    &lt;TestDate&gt;2019-09-04T00:00:00&lt;/TestDate&gt;
+    &lt;TestHour&gt;2000-12-12T09:00:00&lt;/TestHour&gt;
+    &lt;AddressExit&gt;
+      &lt;street&gt;פינס&lt;/street&gt;
+      &lt;number&gt;30&lt;/number&gt;
+      &lt;city&gt;גדרה&lt;/city&gt;
+    &lt;/AddressExit&gt;
+    &lt;VehicleKind&gt;A&lt;/VehicleKind&gt;
+    &lt;GearboxKind&gt;automatic&lt;/GearboxKind&gt;
+    &lt;TesterNote /&gt;
+  &lt;/Test&gt;
+&lt;/ArrayOfTest&gt;</TempTestsOfTester>
+  </Tester>
+  <Tester>
+    <Id>205896331</Id>
+    <FirstName>בנאל</FirstName>
+    <LastName>תבורי</LastName>
+    <BirthDate>1960-07-06T00:00:00</BirthDate>
+    <Gender>male</Gender>
+    <PhoneNumber>0523366987</PhoneNumber>
+    <AddressTester>
+      <street>יפו</street>
+      <number>5</number>
+      <city>ירושלים</city>
+    </AddressTester>
+    <ExperienceYears>12</ExperienceYears>
+    <MaxWeeklyTests>30</MaxWeeklyTests>
+    <VehicleKind>B</VehicleKind>
+    <MaxDistance>30</MaxDistance>
+    <TempScheduleTester>5,7,False,False,False,False,False,False,False,False,False,False,False,True,False,False,True,False,True,True,False,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False</TempScheduleTester>
+    <TempTestsOfTester>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</TempTestsOfTester>
+  </Tester>
+  <Tester>
+    <Id>203666985</Id>
+    <FirstName>עומר</FirstName>
+    <LastName>אדם</LastName>
+    <BirthDate>1972-08-12T00:00:00</BirthDate>
+    <Gender>male</Gender>
+    <PhoneNumber>0545566634</PhoneNumber>
+    <AddressTester>
+      <street>הבנים</street>
+      <number>21</number>
+      <city>הרצליה</city>
+    </AddressTester>
+    <ExperienceYears>23</ExperienceYears>
+    <MaxWeeklyTests>7</MaxWeeklyTests>
+    <VehicleKind>A</VehicleKind>
+    <MaxDistance>63</MaxDistance>
+    <TempScheduleTester>5,7,True,True,False,False,True,False,False,False,True,False,False,False,False,False,True,True,True,True,False,False,False,False,False,False,False,True,True,True,False,False,False,False,False,False,False</TempScheduleTester>
+    <TempTestsOfTester>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</TempTestsOfTester>
+  </Tester>
+  <Tester>
+    <Id>123456789</Id>
+    <FirstName>לירן</FirstName>
+    <LastName>גואטה</LastName>
+    <BirthDate>1977-05-03T00:00:00</BirthDate>
+    <Gender>male</Gender>
+    <PhoneNumber>0525245438</PhoneNumber>
+    <AddressTester>
+      <street>הרצל</street>
+      <number>42</number>
+      <city>רחובות</city>
+    </AddressTester>
+    <ExperienceYears>14</ExperienceYears>
+    <MaxWeeklyTests>15</MaxWeeklyTests>
+    <VehicleKind>C1</VehicleKind>
+    <MaxDistance>60</MaxDistance>
+    <TempScheduleTester>5,7,False,True,False,False,False,False,False,True,False,False,False,True,True,False,True,True,True,False,False,False,False,False,False,True,False,True,False,False,False,True,True,False,False,False,False</TempScheduleTester>
+    <TempTestsOfTester>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</TempTestsOfTester>
+  </Tester>
+  <Tester>
+    <Id>520369874</Id>
+    <FirstName>טוהר</FirstName>
+    <LastName>גואטה</LastName>
+    <BirthDate>1985-07-12T00:00:00</BirthDate>
+    <Gender>female</Gender>
+    <PhoneNumber>0526698741</PhoneNumber>
+    <AddressTester>
+      <street>המסגר</street>
+      <number>26</number>
+      <city>נתניה</city>
+    </AddressTester>
+    <ExperienceYears>32</ExperienceYears>
+    <MaxWeeklyTests>6</MaxWeeklyTests>
+    <VehicleKind>B</VehicleKind>
+    <MaxDistance>42</MaxDistance>
+    <TempScheduleTester>5,7,True,True,True,True,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,True,True,True,False,False,False,False,False,False,False</TempScheduleTester>
+    <TempTestsOfTester>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Test&gt;
+    &lt;DrivingCheck&gt;
+      &lt;keepDistance&gt;false&lt;/keepDistance&gt;
+      &lt;reverseParking&gt;false&lt;/reverseParking&gt;
+      &lt;mirrorsWatcing&gt;false&lt;/mirrorsWatcing&gt;
+      &lt;signs&gt;false&lt;/signs&gt;
+      &lt;isAllowedSpeed&gt;false&lt;/isAllowedSpeed&gt;
+    &lt;/DrivingCheck&gt;
+    &lt;IsPass&gt;false&lt;/IsPass&gt;
+    &lt;Code&gt;0&lt;/Code&gt;
+    &lt;Id_tester&gt;520369874&lt;/Id_tester&gt;
+    &lt;Id_trainee&gt;204123456&lt;/Id_trainee&gt;
+    &lt;TestDate&gt;2019-02-17T00:00:00&lt;/TestDate&gt;
+    &lt;TestHour&gt;2000-12-12T11:00:00&lt;/TestHour&gt;
+    &lt;AddressExit&gt;
+      &lt;street&gt;כץ&lt;/street&gt;
+      &lt;number&gt;7&lt;/number&gt;
+      &lt;city&gt;פתח תקווה&lt;/city&gt;
+    &lt;/AddressExit&gt;
+    &lt;VehicleKind&gt;B&lt;/VehicleKind&gt;
+    &lt;GearboxKind&gt;manual&lt;/GearboxKind&gt;
+    &lt;TesterNote /&gt;
+  &lt;/Test&gt;
+  &lt;Test&gt;
+    &lt;DrivingCheck&gt;
+      &lt;keepDistance&gt;false&lt;/keepDistance&gt;
+      &lt;reverseParking&gt;false&lt;/reverseParking&gt;
+      &lt;mirrorsWatcing&gt;false&lt;/mirrorsWatcing&gt;
+      &lt;signs&gt;false&lt;/signs&gt;
+      &lt;isAllowedSpeed&gt;false&lt;/isAllowedSpeed&gt;
+    &lt;/DrivingCheck&gt;
+    &lt;IsPass&gt;false&lt;/IsPass&gt;
+    &lt;Code&gt;7&lt;/Code&gt;
+    &lt;Id_tester&gt;520369874&lt;/Id_tester&gt;
+    &lt;Id_trainee&gt;204123456&lt;/Id_trainee&gt;
+    &lt;TestDate&gt;2020-02-02T00:00:00&lt;/TestDate&gt;
+    &lt;TestHour&gt;2000-12-12T13:00:00&lt;/TestHour&gt;
+    &lt;AddressExit&gt;
+      &lt;street&gt;השרון&lt;/street&gt;
+      &lt;number&gt;1&lt;/number&gt;
+      &lt;city&gt;חולון&lt;/city&gt;
+    &lt;/AddressExit&gt;
+    &lt;VehicleKind&gt;B&lt;/VehicleKind&gt;
+    &lt;GearboxKind&gt;manual&lt;/GearboxKind&gt;
+    &lt;TesterNote /&gt;
+  &lt;/Test&gt;
+  &lt;Test&gt;
+    &lt;DrivingCheck&gt;
+      &lt;keepDistance&gt;false&lt;/keepDistance&gt;
+      &lt;reverseParking&gt;false&lt;/reverseParking&gt;
+      &lt;mirrorsWatcing&gt;false&lt;/mirrorsWatcing&gt;
+      &lt;signs&gt;false&lt;/signs&gt;
+      &lt;isAllowedSpeed&gt;false&lt;/isAllowedSpeed&gt;
+    &lt;/DrivingCheck&gt;
+    &lt;IsPass&gt;false&lt;/IsPass&gt;
+    &lt;Code&gt;13&lt;/Code&gt;
+    &lt;Id_tester&gt;520369874&lt;/Id_tester&gt;
+    &lt;Id_trainee&gt;209638524&lt;/Id_trainee&gt;
+    &lt;TestDate&gt;2019-02-03T00:00:00&lt;/TestDate&gt;
+    &lt;TestHour&gt;2000-12-12T11:00:00&lt;/TestHour&gt;
+    &lt;AddressExit&gt;
+      &lt;street&gt;הדולפין&lt;/street&gt;
+      &lt;number&gt;17&lt;/number&gt;
+      &lt;city&gt;יבנה&lt;/city&gt;
+    &lt;/AddressExit&gt;
+    &lt;VehicleKind&gt;B&lt;/VehicleKind&gt;
+    &lt;GearboxKind&gt;manual&lt;/GearboxKind&gt;
+    &lt;TesterNote /&gt;
+  &lt;/Test&gt;
+&lt;/ArrayOfTest&gt;</TempTestsOfTester>
+  </Tester>
+  <Tester>
+    <Id>236985410</Id>
+    <FirstName>ניתאי </FirstName>
+    <LastName>מימון</LastName>
+    <BirthDate>1960-10-21T00:00:00</BirthDate>
+    <Gender>male</Gender>
+    <PhoneNumber>0503399872</PhoneNumber>
+    <AddressTester>
+      <street>קדם</street>
+      <number>120</number>
+      <city>תל אביב</city>
+    </AddressTester>
+    <ExperienceYears>16</ExperienceYears>
+    <MaxWeeklyTests>23</MaxWeeklyTests>
+    <VehicleKind>B</VehicleKind>
+    <MaxDistance>53</MaxDistance>
+    <TempScheduleTester>5,7,False,False,True,False,False,False,False,True,True,True,False,False,False,True,True,False,True,False,True,False,False,False,True,False,False,True,False,False,True,True,True,False,True,False,False</TempScheduleTester>
+    <TempTestsOfTester>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Test&gt;
+    &lt;DrivingCheck&gt;
+      &lt;keepDistance&gt;false&lt;/keepDistance&gt;
+      &lt;reverseParking&gt;false&lt;/reverseParking&gt;
+      &lt;mirrorsWatcing&gt;false&lt;/mirrorsWatcing&gt;
+      &lt;signs&gt;false&lt;/signs&gt;
+      &lt;isAllowedSpeed&gt;false&lt;/isAllowedSpeed&gt;
+    &lt;/DrivingCheck&gt;
+    &lt;IsPass&gt;false&lt;/IsPass&gt;
+    &lt;Code&gt;1&lt;/Code&gt;
+    &lt;Id_tester&gt;236985410&lt;/Id_tester&gt;
+    &lt;Id_trainee&gt;124563987&lt;/Id_trainee&gt;
+    &lt;TestDate&gt;2019-05-27T00:00:00&lt;/TestDate&gt;
+    &lt;TestHour&gt;2000-12-12T11:00:00&lt;/TestHour&gt;
+    &lt;AddressExit&gt;
+      &lt;street&gt;דוד אלעזר&lt;/street&gt;
+      &lt;number&gt;36&lt;/number&gt;
+      &lt;city&gt;יבנה&lt;/city&gt;
+    &lt;/AddressExit&gt;
+    &lt;VehicleKind&gt;B&lt;/VehicleKind&gt;
+    &lt;GearboxKind&gt;manual&lt;/GearboxKind&gt;
+    &lt;TesterNote /&gt;
+  &lt;/Test&gt;
+  &lt;Test&gt;
+    &lt;DrivingCheck&gt;
+      &lt;keepDistance&gt;false&lt;/keepDistance&gt;
+      &lt;reverseParking&gt;false&lt;/reverseParking&gt;
+      &lt;mirrorsWatcing&gt;false&lt;/mirrorsWatcing&gt;
+      &lt;signs&gt;false&lt;/signs&gt;
+      &lt;isAllowedSpeed&gt;false&lt;/isAllowedSpeed&gt;
+    &lt;/DrivingCheck&gt;
+    &lt;IsPass&gt;false&lt;/IsPass&gt;
+    &lt;Code&gt;3&lt;/Code&gt;
+    &lt;Id_tester&gt;236985410&lt;/Id_tester&gt;
+    &lt;Id_trainee&gt;209638524&lt;/Id_trainee&gt;
+    &lt;TestDate&gt;2020-04-28T00:00:00&lt;/TestDate&gt;
+    &lt;TestHour&gt;2000-12-12T09:00:00&lt;/TestHour&gt;
+    &lt;AddressExit&gt;
+      &lt;street&gt;הרעות&lt;/street&gt;
+      &lt;number&gt;4&lt;/number&gt;
+      &lt;city&gt;נתניה&lt;/city&gt;
+    &lt;/AddressExit&gt;
+    &lt;VehicleKind&gt;B&lt;/VehicleKind&gt;
+    &lt;GearboxKind&gt;manual&lt;/GearboxKind&gt;
+    &lt;TesterNote /&gt;
+  &lt;/Test&gt;
+  &lt;Test&gt;
+    &lt;DrivingCheck&gt;
+      &lt;keepDistance&gt;false&lt;/keepDistance&gt;
+      &lt;reverseParking&gt;false&lt;/reverseParking&gt;
+      &lt;mirrorsWatcing&gt;false&lt;/mirrorsWatcing&gt;
+      &lt;signs&gt;false&lt;/signs&gt;
+      &lt;isAllowedSpeed&gt;false&lt;/isAllowedSpeed&gt;
+    &lt;/DrivingCheck&gt;
+    &lt;IsPass&gt;false&lt;/IsPass&gt;
+    &lt;Code&gt;4&lt;/Code&gt;
+    &lt;Id_tester&gt;236985410&lt;/Id_tester&gt;
+    &lt;Id_trainee&gt;203698675&lt;/Id_trainee&gt;
+    &lt;TestDate&gt;2019-04-22T00:00:00&lt;/TestDate&gt;
+    &lt;TestHour&gt;2000-12-12T09:00:00&lt;/TestHour&gt;
+    &lt;AddressExit&gt;
+      &lt;street&gt;הבנים&lt;/street&gt;
+      &lt;number&gt;31&lt;/number&gt;
+      &lt;city&gt;הרצליה&lt;/city&gt;
+    &lt;/AddressExit&gt;
+    &lt;VehicleKind&gt;B&lt;/VehicleKind&gt;
+    &lt;GearboxKind&gt;manual&lt;/GearboxKind&gt;
+    &lt;TesterNote /&gt;
+  &lt;/Test&gt;
+  &lt;Test&gt;
+    &lt;DrivingCheck&gt;
+      &lt;keepDistance&gt;false&lt;/keepDistance&gt;
+      &lt;reverseParking&gt;false&lt;/reverseParking&gt;
+      &lt;mirrorsWatcing&gt;false&lt;/mirrorsWatcing&gt;
+      &lt;signs&gt;false&lt;/signs&gt;
+      &lt;isAllowedSpeed&gt;false&lt;/isAllowedSpeed&gt;
+    &lt;/DrivingCheck&gt;
+    &lt;IsPass&gt;false&lt;/IsPass&gt;
+    &lt;Code&gt;12&lt;/Code&gt;
+    &lt;Id_tester&gt;236985410&lt;/Id_tester&gt;
+    &lt;Id_trainee&gt;203698564&lt;/Id_trainee&gt;
+    &lt;TestDate&gt;2019-01-30T00:00:00&lt;/TestDate&gt;
+    &lt;TestHour&gt;2000-12-12T10:00:00&lt;/TestHour&gt;
+    &lt;AddressExit&gt;
+      &lt;street&gt;מנחם בגין&lt;/street&gt;
+      &lt;number&gt;77&lt;/number&gt;
+      &lt;city&gt;פתח תקווה&lt;/city&gt;
+    &lt;/AddressExit&gt;
+    &lt;VehicleKind&gt;B&lt;/VehicleKind&gt;
+    &lt;GearboxKind&gt;manual&lt;/GearboxKind&gt;
+    &lt;TesterNote /&gt;
+  &lt;/Test&gt;
+&lt;/ArrayOfTest&gt;</TempTestsOfTester>
+  </Tester>
+  <Tester>
+    <Id>250369874</Id>
+    <FirstName>נועם</FirstName>
+    <LastName>פור</LastName>
+    <BirthDate>1963-09-02T00:00:00</BirthDate>
+    <Gender>male</Gender>
+    <PhoneNumber>0503399870</PhoneNumber>
+    <AddressTester>
+      <street>פינס</street>
+      <number>14</number>
+      <city>גדרה</city>
+    </AddressTester>
+    <ExperienceYears>30</ExperienceYears>
+    <MaxWeeklyTests>20</MaxWeeklyTests>
+    <VehicleKind>B</VehicleKind>
+    <MaxDistance>65</MaxDistance>
+    <TempScheduleTester>5,7,False,True,False,False,True,False,True,False,False,False,True,False,False,False,False,True,False,True,False,True,False,False,True,False,True,False,True,False,False,True,False,False,False,True,False</TempScheduleTester>
+    <TempTestsOfTester>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Test&gt;
+    &lt;DrivingCheck&gt;
+      &lt;keepDistance&gt;false&lt;/keepDistance&gt;
+      &lt;reverseParking&gt;false&lt;/reverseParking&gt;
+      &lt;mirrorsWatcing&gt;false&lt;/mirrorsWatcing&gt;
+      &lt;signs&gt;false&lt;/signs&gt;
+      &lt;isAllowedSpeed&gt;false&lt;/isAllowedSpeed&gt;
+    &lt;/DrivingCheck&gt;
+    &lt;IsPass&gt;false&lt;/IsPass&gt;
+    &lt;Code&gt;8&lt;/Code&gt;
+    &lt;Id_tester&gt;250369874&lt;/Id_tester&gt;
+    &lt;Id_trainee&gt;204123456&lt;/Id_trainee&gt;
+    &lt;TestDate&gt;2021-06-06T00:00:00&lt;/TestDate&gt;
+    &lt;TestHour&gt;2000-12-12T13:00:00&lt;/TestHour&gt;
+    &lt;AddressExit&gt;
+      &lt;street&gt;יעקב&lt;/street&gt;
+      &lt;number&gt;22&lt;/number&gt;
+      &lt;city&gt;רחובות&lt;/city&gt;
+    &lt;/AddressExit&gt;
+    &lt;VehicleKind&gt;B&lt;/VehicleKind&gt;
+    &lt;GearboxKind&gt;manual&lt;/GearboxKind&gt;
+    &lt;TesterNote /&gt;
+  &lt;/Test&gt;
+&lt;/ArrayOfTest&gt;</TempTestsOfTester>
+  </Tester>
+  <Tester>
+    <Id>205369233</Id>
+    <FirstName>עדן</FirstName>
+    <LastName>כהן</LastName>
+    <BirthDate>1962-09-22T00:00:00</BirthDate>
+    <Gender>female</Gender>
+    <PhoneNumber>0525602276</PhoneNumber>
+    <AddressTester>
+      <street>הדולפין</street>
+      <number>7</number>
+      <city>יבנה</city>
+    </AddressTester>
+    <ExperienceYears>12</ExperienceYears>
+    <MaxWeeklyTests>13</MaxWeeklyTests>
+    <VehicleKind>C1</VehicleKind>
+    <MaxDistance>42</MaxDistance>
+    <TempScheduleTester>5,7,False,False,False,True,False,False,False,True,True,True,False,False,False,False,True,False,False,True,False,False,False,False,True,False,False,True,False,False,False,False,True,False,True,False,False</TempScheduleTester>
+    <TempTestsOfTester>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</TempTestsOfTester>
+  </Tester>
+  <Tester>
+    <Id>203659852</Id>
+    <FirstName>דור</FirstName>
+    <LastName>עמר</LastName>
+    <BirthDate>1956-10-10T00:00:00</BirthDate>
+    <Gender>male</Gender>
+    <PhoneNumber>0526639554</PhoneNumber>
+    <AddressTester>
+      <street>רחל</street>
+      <number>5</number>
+      <city>גבעתיים</city>
+    </AddressTester>
+    <ExperienceYears>20</ExperienceYears>
+    <MaxWeeklyTests>19</MaxWeeklyTests>
+    <VehicleKind>B</VehicleKind>
+    <MaxDistance>25</MaxDistance>
+    <TempScheduleTester>5,7,False,False,False,True,False,True,False,False,True,True,False,False,True,False,False,False,False,False,False,True,False,False,True,True,False,False,True,False,False,False,False,False,True,True,False</TempScheduleTester>
+    <TempTestsOfTester>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</TempTestsOfTester>
+  </Tester>
+  <Tester>
+    <Id>208106029</Id>
+    <FirstName>אורי</FirstName>
+    <LastName>מוסאי</LastName>
+    <BirthDate>1962-09-05T00:00:00</BirthDate>
+    <Gender>male</Gender>
+    <PhoneNumber>0503333985</PhoneNumber>
+    <AddressTester>
+      <street>יפו</street>
+      <number>25</number>
+      <city>ירושלים</city>
+    </AddressTester>
+    <ExperienceYears>21</ExperienceYears>
+    <MaxWeeklyTests>23</MaxWeeklyTests>
+    <VehicleKind>C</VehicleKind>
+    <MaxDistance>43</MaxDistance>
+    <TempScheduleTester>5,7,False,True,True,False,False,True,False,False,True,True,False,False,True,False,True,False,False,True,False,False,False,False,True,False,False,False,True,False,False,False,True,False,False,False,False</TempScheduleTester>
+    <TempTestsOfTester>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</TempTestsOfTester>
+  </Tester>
+  <Tester>
+    <Id>203659887</Id>
+    <FirstName>חיים</FirstName>
+    <LastName>נכלוף</LastName>
+    <BirthDate>1971-08-17T00:00:00</BirthDate>
+    <Gender>male</Gender>
+    <PhoneNumber>0546693210</PhoneNumber>
+    <AddressTester>
+      <street>הכותל המערבי</street>
+      <number>9</number>
+      <city>באר שבע</city>
+    </AddressTester>
+    <ExperienceYears>20</ExperienceYears>
+    <MaxWeeklyTests>14</MaxWeeklyTests>
+    <VehicleKind>B</VehicleKind>
+    <MaxDistance>50</MaxDistance>
+    <TempScheduleTester>5,7,False,True,False,False,False,True,False,False,True,False,True,False,False,False,False,True,False,True,False,True,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False</TempScheduleTester>
+    <TempTestsOfTester>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</TempTestsOfTester>
+  </Tester>
+  <Tester>
+    <Id>206987456</Id>
+    <FirstName>אליהו</FirstName>
+    <LastName>גלעדי</LastName>
+    <BirthDate>1970-10-15T00:00:00</BirthDate>
+    <Gender>male</Gender>
+    <PhoneNumber>0546352136</PhoneNumber>
+    <AddressTester>
+      <street>הענבל</street>
+      <number>5</number>
+      <city>פתח תקווה</city>
+    </AddressTester>
+    <ExperienceYears>20</ExperienceYears>
+    <MaxWeeklyTests>20</MaxWeeklyTests>
+    <VehicleKind>C</VehicleKind>
+    <MaxDistance>50</MaxDistance>
+    <TempScheduleTester>5,7,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True</TempScheduleTester>
+    <TempTestsOfTester>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Test&gt;
+    &lt;DrivingCheck&gt;
+      &lt;keepDistance&gt;false&lt;/keepDistance&gt;
+      &lt;reverseParking&gt;false&lt;/reverseParking&gt;
+      &lt;mirrorsWatcing&gt;false&lt;/mirrorsWatcing&gt;
+      &lt;signs&gt;false&lt;/signs&gt;
+      &lt;isAllowedSpeed&gt;false&lt;/isAllowedSpeed&gt;
+    &lt;/DrivingCheck&gt;
+    &lt;IsPass&gt;false&lt;/IsPass&gt;
+    &lt;Code&gt;11&lt;/Code&gt;
+    &lt;Id_tester&gt;206987456&lt;/Id_tester&gt;
+    &lt;Id_trainee&gt;316547896&lt;/Id_trainee&gt;
+    &lt;TestDate&gt;2019-02-20T00:00:00&lt;/TestDate&gt;
+    &lt;TestHour&gt;2000-12-12T11:00:00&lt;/TestHour&gt;
+    &lt;AddressExit&gt;
+      &lt;street&gt;חובבי ציון&lt;/street&gt;
+      &lt;number&gt;20&lt;/number&gt;
+      &lt;city&gt;פתח תקווה&lt;/city&gt;
+    &lt;/AddressExit&gt;
+    &lt;VehicleKind&gt;C&lt;/VehicleKind&gt;
+    &lt;GearboxKind&gt;manual&lt;/GearboxKind&gt;
+    &lt;TesterNote /&gt;
+  &lt;/Test&gt;
+&lt;/ArrayOfTest&gt;</TempTestsOfTester>
+  </Tester>
+</ArrayOfTester>

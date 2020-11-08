@@ -1,0 +1,17 @@
+﻿<Window x:Class="PLWPF.TraineeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="תלמיד" Height="385.073" Width="293.552" >
+    <Grid Margin="0,0,2,0">
+        <Button x:Name="ButtonAdd" Content="תלמיד חדש" HorizontalAlignment="Left" Height="82" Margin="23,10,0,0" VerticalAlignment="Top" Width="217" Click="ButtonAdd_Click" FontWeight="Black"/>
+        <Button x:Name="ButtonTest" Content="מבחנים" HorizontalAlignment="Left" Height="82" Margin="23,106,0,0" VerticalAlignment="Top" Width="217" Click="ButtonTest_Click" FontWeight="Black" />
+        <Button x:Name="ButtonUpdate" Content="חיפוש" HorizontalAlignment="Left" Height="82" Margin="23,202,0,0" VerticalAlignment="Top" Width="217" Click="ButtonUpdate_Click" FontWeight="Black"/>
+        <Button x:Name="btnHome" Content="תפריט ראשי" HorizontalAlignment="Left" Width="89" Margin="163,312,0,6" FontWeight="Bold" Click="btnHome_Click"/>
+        <Button x:Name="btnReturn" Content="חזור" HorizontalAlignment="Left" VerticalAlignment="Top" Width="77" Margin="23,318,0,0" Height="26" RenderTransformOrigin="-2.239,0.569" FontWeight="Bold" Click="btnReturn_Click"/>
+
+    </Grid>
+</Window>

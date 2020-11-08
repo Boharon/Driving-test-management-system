@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTrainee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <trainee>
+    <id>204123456</id>
+    <firstName>משה</firstName>
+    <lastName>כהן</lastName>
+    <birthDate>15/10/1990 00:00:00</birthDate>
+    <gender>male</gender>
+    <phoneNumber>0546352789</phoneNumber>
+    <addressTrainee>מנחם בגין,77,פתח תקווה</addressTrainee>
+    <drivinglessons>A,automatic,,,0,False,B,automatic,דרייב מי,ששון,60,False,A,automatic,,,0,False,A,automatic,,,0,False,</drivinglessons>
+  </trainee>
+  <trainee>
+    <id>316547896</id>
+    <firstName>שרה</firstName>
+    <lastName>לוי</lastName>
+    <birthDate>1999-04-17T00:00:00</birthDate>
+    <gender>female</gender>
+    <phoneNumber>0578965412</phoneNumber>
+    <addressTrainee>הדולפין,5,יבנה</addressTrainee>
+    <drivinglessons>A,automatic,,,0,False,A,automatic,,,0,False,C,manual,,,50,False,A,automatic,,,0,False,</drivinglessons>
+  </trainee>
+  <trainee>
+    <id>124563987</id>
+    <firstName>אברהם</firstName>
+    <lastName>מעטוף</lastName>
+    <birthDate>2000-03-02T00:00:00</birthDate>
+    <gender>male</gender>
+    <phoneNumber>0563982147</phoneNumber>
+    <addressTrainee>דוד אלעזר,15,יבנה</addressTrainee>
+    <drivinglessons>A,automatic,,,0,False,B,manual,,,40,False,A,automatic,,,0,False,A,automatic,,,0,False,</drivinglessons>
+  </trainee>
+  <trainee>
+    <id>263985469</id>
+    <firstName>רחל</firstName>
+    <lastName>אהרון</lastName>
+    <birthDate>1999-02-15T00:00:00</birthDate>
+    <gender>female</gender>
+    <phoneNumber>0546352963</phoneNumber>
+    <addressTrainee>הקישון,4,יבנה</addressTrainee>
+    <drivinglessons>A,automatic,,,0,False,A,automatic,,,0,False,C,automatic,,,30,False,A,automatic,,,0,False,</drivinglessons>
+  </trainee>
+  <trainee>
+    <id>209638524</id>
+    <firstName>בר</firstName>
+    <lastName>ברוכאל</lastName>
+    <birthDate>1997-06-15T00:00:00</birthDate>
+    <gender>female</gender>
+    <phoneNumber>0546958456</phoneNumber>
+    <addressTrainee>שבטי ישראל,11,נס ציונה</addressTrainee>
+    <drivinglessons>A,automatic,,,0,False,B,automatic,כלנית,אברהם,30,False,A,automatic,,,0,False,A,automatic,,,0,False,</drivinglessons>
+  </trainee>
+  <trainee>
+    <id>203692569</id>
+    <firstName>עידן</firstName>
+    <lastName>חביב</lastName>
+    <birthDate>1980-03-17T00:00:00</birthDate>
+    <gender>male</gender>
+    <phoneNumber>0546958122</phoneNumber>
+    <addressTrainee>נורדאו,25,פתח תקווה</addressTrainee>
+    <drivinglessons>A,automatic,,,0,False,A,automatic,,,0,False,C,automatic,חבצלת,שאול,50,False,A,automatic,,,0,False,</drivinglessons>
+  </trainee>
+  <trainee>
+    <id>306987456</id>
+    <firstName>יצחק</firstName>
+    <lastName>נחום</lastName>
+    <birthDate>1982-02-15T00:00:00</birthDate>
+    <gender>male</gender>
+    <phoneNumber>0546987456</phoneNumber>
+    <addressTrainee>חיים עוזר,30,פתח תקווה</addressTrainee>
+    <drivinglessons>A,automatic,,,0,False,A,automatic,,,0,False,C,automatic,יסמין,דוד,60,False,A,automatic,,,0,False,</drivinglessons>
+  </trainee>
+  <trainee>
+    <id>203698675</id>
+    <firstName>אביטל</firstName>
+    <lastName>יקרה</lastName>
+    <birthDate>2000-02-17T00:00:00</birthDate>
+    <gender>female</gender>
+    <phoneNumber>0546958122</phoneNumber>
+    <addressTrainee>רוזובסקי,7,פתח תקווה</addressTrainee>
+    <drivinglessons>A,automatic,,,0,False,B,automatic,חבצלת,יצחק,60,False,A,automatic,,,0,False,A,automatic,,,0,False,</drivinglessons>
+  </trainee>
+  <trainee>
+    <id>206987456</id>
+    <firstName>מיטל</firstName>
+    <lastName>חביבה</lastName>
+    <birthDate>2000-10-06T00:00:00</birthDate>
+    <gender>female</gender>
+    <phoneNumber>0546958122</phoneNumber>
+    <addressTrainee>ירמיהו,5,ירושלים</addressTrainee>
+    <drivinglessons>A,automatic,,,0,False,B,automatic,כלנית,דוד,32,False,A,automatic,,,0,False,A,automatic,,,0,False,</drivinglessons>
+  </trainee>
+  <trainee>
+    <id>203698564</id>
+    <firstName>תמי</firstName>
+    <lastName>בוהארון</lastName>
+    <birthDate>15/10/1998 00:00:00</birthDate>
+    <gender>male</gender>
+    <phoneNumber>0546958732</phoneNumber>
+    <addressTrainee>מנחם בגין,77,פתח תקווה</addressTrainee>
+    <drivinglessons>A,automatic,,,0,False,B,manual,אונו,דוד,60,False,A,automatic,,,0,False,A,automatic,,,0,False,</drivinglessons>
+  </trainee>
+  <trainee>
+    <id>203698745</id>
+    <firstName>משה</firstName>
+    <lastName>כהן</lastName>
+    <birthDate>1990-06-15T00:00:00</birthDate>
+    <gender>female</gender>
+    <phoneNumber>0546325987</phoneNumber>
+    <addressTrainee>מנחם בגין,77,פתח תקווה</addressTrainee>
+    <drivinglessons>A,automatic,אונו,דוד,60,False,A,automatic,,,0,False,A,automatic,,,0,False,A,automatic,,,0,False,</drivinglessons>
+  </trainee>
+</ArrayOfTrainee>

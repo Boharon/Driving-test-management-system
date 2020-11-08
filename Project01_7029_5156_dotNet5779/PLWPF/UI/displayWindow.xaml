@@ -1,0 +1,27 @@
+﻿<Window x:Class="PLWPF.DisplayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="DisplayWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="134*"/>
+            <ColumnDefinition Width="263*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnEnter" Content="לכניסה למערכת" HorizontalAlignment="Left" VerticalAlignment="Top" Width="312" Margin="214,16,0,0" Height="58"  FontWeight="Bold" Click="btnEnter_Click" Grid.Row="2" Grid.ColumnSpan="2"  BorderThickness="5" BorderBrush="ForestGreen" Background="YellowGreen"/>
+        <Button x:Name="btnManage" Content="כניסה לממשק הניהולי " HorizontalAlignment="Left" VerticalAlignment="Top" Width="536" Margin="114,38,0,0" Grid.Row="3" Height="36" FontWeight="Bold" Click="btnManage_Click" Grid.ColumnSpan="2"  BorderThickness="5" BorderBrush="ForestGreen" Background="YellowGreen"/>
+        <Button x:Name="button" Content="יציאה" HorizontalAlignment="Left" VerticalAlignment="Top" Width="93" Margin="10,10,0,0" Grid.Row="4" Height="64" FontWeight="Bold"  BorderThickness="5" BorderBrush="ForestGreen" Background="YellowGreen" Click="button_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="74" VerticalAlignment="Top" Width="232" Margin="174.093,0,0,0" Source="C:\Users\tami\Desktop\Project01_7029_5156_dotNet5779\PLWPF\Logo.png" Grid.Column="1"/>
+        <Label x:Name="label" Content="מערכת חכמה לניהול מבחני נהיגה מטעם משרד התחבורה" HorizontalAlignment="Center" VerticalAlignment="Center" Height="64" Width="394" Margin="32,20,367.6,0" FontWeight="Bold" FontSize="15"  Grid.ColumnSpan="2" />
+    </Grid>
+</Window>

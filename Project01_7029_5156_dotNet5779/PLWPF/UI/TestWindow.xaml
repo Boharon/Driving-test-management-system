@@ -1,0 +1,22 @@
+﻿<Window x:Class="PLWPF.TestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="מבחנים" Height="456.323" Width="284.844" >
+    <Grid Height="349" Margin="0,0,0,29" VerticalAlignment="Bottom">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="44*"/>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition Width="72*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ButtonAdd" Content="מבחן חדש" HorizontalAlignment="Left" Height="82" Margin="22,-37,0,0" VerticalAlignment="Top" Width="215" Click="ButtonAdd_Click" Grid.ColumnSpan="3"/>
+        <Button x:Name="ButtonAllTest" Content="מבחנים" HorizontalAlignment="Left" Height="82" Margin="22,57,0,0" VerticalAlignment="Top" Width="215" Grid.ColumnSpan="3" Click="ButtonAllTest_Click" />
+        <Button x:Name="ButtonAllOfTest" Content="מאגר מבחנים" HorizontalAlignment="Left" Height="82" Margin="22,149,0,0" VerticalAlignment="Top" Width="215" Visibility="Hidden" Grid.ColumnSpan="3" Click="ButtonAllOfTest_Click"/>
+        <Button x:Name="btnHome" Content="תפריט ראשי" HorizontalAlignment="Left" Width="75" Grid.Column="2" Margin="46,348,0,-19" FontWeight="Bold" Click="btnHome_Click"/>
+        <Button x:Name="btnBack" Content="חזור" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="22,348,0,-19" Grid.ColumnSpan="2" FontWeight="Bold" Click="btnBack_Click" />
+
+    </Grid>
+</Window>

@@ -1,0 +1,97 @@
+﻿<Window x:Class="PLWPF.ScheduleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="ScheduleWindow" Height="300" Width="500">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="230" />
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+        <Grid Name="schedulesGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Button x:Name="b5_1" Grid.Column="0" Grid.Row="1" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="40" Cursor="Hand"/>
+            <Button x:Name="b5_2" Grid.Column="0" Grid.Row="2" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="41" Cursor="Hand"/>
+            <Button x:Name="b5_3" Grid.Column="0" Grid.Row="3" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="42" Cursor="Hand"/>
+            <Button x:Name="b5_4" Grid.Column="0" Grid.Row="4" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="43" Cursor="Hand"/>
+            <Button x:Name="b5_5" Grid.Column="0" Grid.Row="5" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="44" Cursor="Hand"/>
+            <Button x:Name="b5_6" Grid.Column="0" Grid.Row="6" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="45" Cursor="Hand"/>
+            <Button x:Name="b5_7" Grid.Column="0" Grid.Row="7" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="46" Cursor="Hand"/>
+
+
+            <Button x:Name="b4_1" Grid.Column="1" Grid.Row="1" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="30" Cursor="Hand"/>
+            <Button x:Name="b4_2" Grid.Column="1" Grid.Row="2" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="31" Cursor="Hand"/>
+            <Button x:Name="b4_3" Grid.Column="1" Grid.Row="3" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="32" Cursor="Hand"/>
+            <Button x:Name="b4_4" Grid.Column="1" Grid.Row="4" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="33" Cursor="Hand"/>
+            <Button x:Name="b4_5" Grid.Column="1" Grid.Row="5" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="34" Cursor="Hand"/>
+            <Button x:Name="b4_6" Grid.Column="1" Grid.Row="6" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="35" Cursor="Hand"/>
+            <Button x:Name="b4_7" Grid.Column="1" Grid.Row="7" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="36" Cursor="Hand"/>
+
+
+            <Button x:Name="b3_1" Grid.Column="2" Grid.Row="1" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="20" Cursor="Hand"/>
+            <Button x:Name="b3_2" Grid.Column="2" Grid.Row="2" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="21" Cursor="Hand"/>
+            <Button x:Name="b3_3" Grid.Column="2" Grid.Row="3" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="22" Cursor="Hand"/>
+            <Button x:Name="b3_4" Grid.Column="2" Grid.Row="4" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="23" Cursor="Hand"/>
+            <Button x:Name="b3_5" Grid.Column="2" Grid.Row="5" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="24" Cursor="Hand"/>
+            <Button x:Name="b3_6" Grid.Column="2" Grid.Row="6" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="25" Cursor="Hand"/>
+            <Button x:Name="b3_7" Grid.Column="2" Grid.Row="7" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="26" Cursor="Hand"/>
+
+
+            <Button x:Name="b2_1" Grid.Column="3" Grid.Row="1" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="10" Cursor="Hand"/>
+            <Button x:Name="b2_2" Grid.Column="3" Grid.Row="2" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="11" Cursor="Hand"/>
+            <Button x:Name="b2_3" Grid.Column="3" Grid.Row="3" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="12" Cursor="Hand"/>
+            <Button x:Name="b2_4" Grid.Column="3" Grid.Row="4" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="13" Cursor="Hand"/>
+            <Button x:Name="b2_5" Grid.Column="3" Grid.Row="5" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="14" Cursor="Hand"/>
+            <Button x:Name="b2_6" Grid.Column="3" Grid.Row="6" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="15" Cursor="Hand"/>
+            <Button x:Name="b2_7" Grid.Column="3" Grid.Row="7" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="16" Cursor="Hand"/>
+
+
+            <Button x:Name="b1_1" Grid.Column="4" Grid.Row="1" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="0" Cursor="Hand"/>
+            <Button x:Name="b1_2" Grid.Column="4" Grid.Row="2" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="1" Cursor="Hand"/>
+            <Button x:Name="b1_3" Grid.Column="4" Grid.Row="3" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="2" Cursor="Hand"/>
+            <Button x:Name="b1_4" Grid.Column="4" Grid.Row="4" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="3" Cursor="Hand"/>
+            <Button x:Name="b1_5" Grid.Column="4" Grid.Row="5" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="4" Cursor="Hand"/>
+            <Button x:Name="b1_6" Grid.Column="4" Grid.Row="6" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="5" Cursor="Hand"/>
+            <Button x:Name="b1_7" Grid.Column="4" Grid.Row="7" Height="auto"  Width="auto" Click="button_Click" Background="White" Tag="6" Cursor="Hand"/>
+
+
+            <Label x:Name="lblSunday" Content="ראשון"  Grid.Column="4" Grid.Row="0" Height="auto"  Width="auto" FontSize="15" FontWeight="Bold" FlowDirection="RightToLeft" HorizontalAlignment="Center" />
+            <Label x:Name="lblMonday" Content="שני"  Grid.Column="3" Grid.Row="0" Height="auto"  Width="auto" FontSize="15" FontWeight="Bold" FlowDirection="RightToLeft" HorizontalAlignment="Center" />
+            <Label x:Name="lblTuesday" Content="שלישי"  Grid.Column="2" Grid.Row="0" Height="auto"  Width="auto" FontSize="15" FontWeight="Bold" FlowDirection="RightToLeft" HorizontalAlignment="Center" />
+            <Label x:Name="lblWednesday" Content="רביעי"  Grid.Column="1" Grid.Row="0" Height="auto"  Width="auto" FontSize="15" FontWeight="Bold" FlowDirection="RightToLeft" HorizontalAlignment="Center" />
+            <Label x:Name="lblThursday" Content="חמישי"  Grid.Column="0" Grid.Row="0" Height="auto"  Width="auto" FontSize="15" FontWeight="Bold" FlowDirection="RightToLeft" HorizontalAlignment="Center" />
+
+            <Label x:Name="lbl15" Content="15:00"  Grid.Column="5" Grid.Row="7" Height="auto"  Width="auto" FontSize="15" FontWeight="Bold" FlowDirection="RightToLeft" HorizontalAlignment="Center" />
+            <Label x:Name="lbl14" Content="14:00"  Grid.Column="5" Grid.Row="6" Height="auto"  Width="auto" FontSize="15" FontWeight="Bold" FlowDirection="RightToLeft" HorizontalAlignment="Center" />
+            <Label x:Name="lbl13" Content="13:00"  Grid.Column="5" Grid.Row="5" Height="auto"  Width="auto" FontSize="15" FontWeight="Bold" FlowDirection="RightToLeft" HorizontalAlignment="Center" />
+            <Label x:Name="lbl12" Content="12:00"  Grid.Column="5" Grid.Row="4" Height="auto"  Width="auto" FontSize="15" FontWeight="Bold" FlowDirection="RightToLeft" HorizontalAlignment="Center" />
+            <Label x:Name="lbl11" Content="11:00"  Grid.Column="5" Grid.Row="3" Height="auto"  Width="auto" FontSize="15" FontWeight="Bold" FlowDirection="RightToLeft" HorizontalAlignment="Center" />
+            <Label x:Name="lbl10" Content="10:00"  Grid.Column="5" Grid.Row="2" Height="auto"  Width="auto" FontSize="15" FontWeight="Bold" FlowDirection="RightToLeft" HorizontalAlignment="Center" />
+            <Label x:Name="lbl9" Content="9:00"  Grid.Column="5" Grid.Row="1" Height="auto"  Width="auto" FontSize="15" FontWeight="Bold" FlowDirection="RightToLeft" HorizontalAlignment="Center" />
+        </Grid>
+        <Button x:Name="buttonConfirm" Content="אישור" HorizontalAlignment="Left" VerticalAlignment="Top" Width="131" Margin="164,4.6,0,0" Height="30" Grid.Row="1" Click="buttonConfirm_Click"/>
+    </Grid>
+</Window>
+    
